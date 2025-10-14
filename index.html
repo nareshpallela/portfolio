@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresh Pallela | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <div class="bg-container">
+    <!-- Header Section -->
+    <div class="main-bg-container">
+      <h1 class="main-heading">Naresh Pallela</h1>
+      <p class="paragraph">Project Executive | Aspiring Design Engineer</p>
+      <p class="paragraph">Open to roles in Bengaluru, Hyderabad, and Chennai</p>
+
+      <nav class="navbar-items">
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </div>
+
+    <!-- About Section -->
+    <div class="card-container" id="About">
+      <h1 class="card-heading">ABOUT ME</h1>
+      <hr>
+      <p class="card-paragraph">
+        I am currently working as a Project Executive in the furniture design industry, handling office furniture layout projects from start to finish. Skilled in AutoCAD, SolidWorks, and cost estimation, I aim to transition into a Design Engineer role where I can combine my project execution experience with design expertise.
+      </p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="card-container" id="Skills">
+      <h1 class="card-heading">Skills</h1>
+      <hr>
+      <div class="text-center">
+        <button class="button">AutoCAD</button>
+        <button class="button">SolidWorks</button>
+        <button class="button">Furniture Layout Design</button>
+        <button class="button">Cost Estimation & Quotation</button>
+      </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="card-container" id="Experience">
+      <h1 class="card-heading">Experience</h1>
+      <hr>
+      <p class="sub-heading">Project Executive - [Current Company]</p>
+      <ul>
+        <li>Coordinate with Sales, Project, and Design teams to ensure timely project delivery.</li>
+        <li>Prepare quotations and cost estimates based on client layouts, BOQs, and RFQs.</li>
+        <li>Create detailed sign-off drawings in AutoCAD as per client specifications.</li>
+        <li>Develop site markings and dimensions based on client CAD layouts.</li>
+        <li>Verify packing lists and provide project files to PPC & CPD teams.</li>
+        <li>Support smooth project execution to prevent installation issues.</li>
+      </ul>
+    </div>
+
+    <!-- Design Samples Section -->
+<div class="card-container" id="Projects">
+  <h1 class="card-heading">Design Samples (SolidWorks)</h1>
+  <hr>
+
+  <!-- Project Thumbnails -->
+  <div class="projects" id="projectList">
+    <div class="poject-sub-conatiner" onclick="display('section1')">
+      <img src="metal-locker.png" alt="Workstion Design">
+      <p><strong>Workstation Design</strong><br>2D & 3D Autocad Drawing</p>
+      <p><span class="blue-text">Click here</span></p>
+    </div>
+
+    <div class="poject-sub-conatiner" onclick="display('section2')">
+      <img src="chair-frame.png" alt="Workstation Design">
+      <p><strong>Workstation Design</strong><br>2D & 3D SolidWorks Drawing</p>
+      <p><span class="blue-text">Click here</span></p>
+    </div>
+    <div class="poject-sub-conatiner" onclick="display('section3')">
+      <img src="chair-frame.png" alt="Layout Drwing Design">
+      <p><strong>SITE MAKING</strong><br>Auto Cad Drawing</p>
+      <p><span class="blue-text">Click here</span></p>
+    </div>
+    <div class="poject-sub-conatiner" onclick="display('section4')">
+      <img src="chair-frame.png" alt="Cabin Table Design">
+      <p><strong>CABIN TABLE</strong><br>2D & 3D SolidWorks Drawing</p>
+      <p><span class="blue-text">Click here</span></p>
+    </div>
+    <div class="poject-sub-conatiner" onclick="display('section5')">
+      <img src="chair-frame.png" alt="Pedastal Design">
+      <p><strong>PEDASTAL DESIGN</strong><br>2D & 3D SolidWorks Drawing</p>
+      <p><span class="blue-text">Click here</span></p>
+    </div>
+    <div class="poject-sub-conatiner" onclick="display('section6')">
+      <img src="chair-frame.png" alt="Sheet Metal Locker Design">
+      <p><strong>SHEET METAL LOCKER</strong><br>2D & 3D SolidWorks Drawing</p>
+      <p><span class="blue-text">Click here</span></p>
+    </div>
+  </div>
+
+  <!-- Hidden Section 1 -->
+  <div id="section1" class="mt-4" style="display:none;">
+    <h3>Workstation Design</h3>
+    <video width="100%" controls preload="metadata" id="video1">
+      <source src="videos/mpvideo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="doc-container">
+      <h3>Workstation Drawing</h3>
+      <img src="docs/image.png" alt="Worksttion Design" width="100%" style="border-radius:10px;">
+    </div>
+
+    <button class="btn btn-primary mt-3" onclick="display('Projects')">Back</button>
+  </div>
+
+  <!-- Hidden Section 2 -->
+  <div id="section2" class="mt-4" style="display:none;">
+    <h3>Workstation Design</h3>
+    <video width="100%" controls preload="metadata" id="video2">
+      <source src="videos/mpvideo1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="doc-container">
+      <h3>Chair Frame Project</h3>
+      <img src="image.png" alt="Chair Frame Design" width="100%" style="border-radius:10px;">
+    </div>
+
+    <button class="btn btn-primary mt-3" onclick="display('Projects')">Back</button>
+  </div>
+    <!-- Hidden Section 3 -->
+    <div id="section3" class="mt-4" style="display:none;">
+    <h3>Layout Drwing</h3>
+    <div class="doc-container">
+      <h3>Cad Layout</h3>
+      <img src="docs/image1.png" alt="Chair Frame Design" width="100%" style="border-radius:10px;">
+    </div>
+   
+    <div class="doc-container">
+      <h3>Site Marking</h3>
+      <img src="docs/image2.png" alt="Chair Frame Design" width="100%" style="border-radius:10px;">
+    </div>
+
+    <button class="btn btn-primary mt-3" onclick="display('Projects')">Back</button>
+  </div>
+    <!-- Hidden Section 4 -->
+  <div id="section4" class="mt-4" style="display:none;">
+    <h3>Cabin table</h3>
+    <video width="100%" controls preload="metadata" id="video2">
+      <source src="videos/mpvideo2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    <div class="doc-container">
+      <h3>Cabin table drawing</h3>
+      <img src="docs/image3.png" alt="Chair Frame Design" width="100%" style="border-radius:10px;">
+    </div>
+
+    <button class="btn btn-primary mt-3" onclick="display('Projects')">Back</button>
+</div>
+   <!-- Hidden Section 5 -->
+  <div id="section5" class="mt-4" style="display:none;">
+    <h3>Pedastal Drawing</h3>
+    <video width="100%" controls preload="metadata" id="video2">
+      <source src="videos/mpvideo3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    <div class="doc-container">
+      <h3>Pedastal Drawing</h3>
+      <img src="docs/image4.png" alt="Chair Frame Design" width="100%" style="border-radius:10px;">
+    </div>
+
+    <button class="btn btn-primary mt-3" onclick="display('Projects')">Back</button>
+  </div>
+  <!-- Hidden Section 6 -->
+  <div id="section6" class="mt-4" style="display:none;">
+    <h3>Sheet Metal Drawing</h3>
+    <video width="100%" controls preload="metadata" id="video2">
+      <source src="videos/mpvideo4.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="doc-container">
+      <h3>Sheet Metal Drawing</h3>
+      <img src="docs/image5.png" alt="Chair Frame Design" width="100%" style="border-radius:10px;">
+    </div>
+
+    <button class="btn btn-primary mt-3" onclick="display('Projects')">Back</button>
+  </div>
+</div>
+
+    <!-- Contact Section -->
+    <div class="card-container" id="Contact">
+      <h1 class="card-heading">Contact</h1>
+      <hr>
+      <p><strong>Email:</strong> nareshpallela0302@gmail.com</p>
+      <p><strong>Phone number:</strong> 8074030025 </p>
+      <p><strong>Location:</strong> Hyderabad </p>
+      <!-- Download Resume Button -->
+  <a href="docs/Naresh-Pallela-Resume.pdf" 
+     download 
+     class="btn btn-primary mt-3" 
+     style="display:inline-block; padding:8px 8px; background:#007bff; color:white; border-radius:5px; text-decoration:none;">
+     📄 Download Resume
+  </a>
+    </div>
+
+    <footer>© 2025 Naresh Pallela | Portfolio</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

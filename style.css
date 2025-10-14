@@ -1,0 +1,150 @@
+body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    .bg-container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .main-bg-container {
+      background: #007bff;
+      color: white;
+      padding: 60px 20px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    .main-heading {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .paragraph {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    .navbar-items a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .navbar-items a:hover {
+      color: #ffe082;
+    }
+
+    .card-container {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 30px auto;
+      padding: 30px;
+      max-width: 900px;
+      text-align: left;
+    }
+
+    .card-heading {
+      font-size: 1.8rem;
+      color: #007bff;
+      text-align: center;
+    }
+
+    .card-paragraph {
+      font-size: 1rem;
+      text-align: justify;
+      margin-top: 10px;
+    }
+
+    .button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    .sub-heading {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .poject-sub-conatiner {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      width: 250px;
+      text-align: center;
+      padding: 15px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .poject-sub-conatiner:hover {
+      transform: scale(1.05);
+    }
+
+    .poject-sub-conatiner img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .poject-sub-conatiner p {
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+
+    /* Hide other sections by default */
+    #section2, #section3 {
+      display: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #007bff;
+      color: white;
+      margin-top: 40px;
+    }
+    .doc-container {
+      margin-top: 20px;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .blue-text {
+      color: blue;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    
